@@ -1,11 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        p {
+            font-size: 5vh;
+            font-weight: 900;
+        }
+
+        button {
+            height: 7vh;
+            border-radius: 10px;
+            border: none;
+            width: 13vw;
+        }
+
+        #startStopButton {
+            background-color: red;
+            font-weight: 900;
+
+        }
+
+        #incrementButton {
+            background-color: rgb(85, 0, 243);
+            font-weight: 900;
+
+        }
+
+        #decrementButton {
+            background-color: rgb(174, 174, 174);
+            font-weight: 900;
+
+        }
+    </style>
 </head>
+
 <body>
-    
+    <h1>Counter</h1>
+    <p id="counterDisplay">0</p>
+    <button id="startStopButton">Start</button>
+    <button id="incrementButton">Increment</button>
+    <button id="decrementButton">Decrement</button>
+
 </body>
+
 </html>
+<script src="./index.js"></script>
